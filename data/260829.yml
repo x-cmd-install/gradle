@@ -1,0 +1,70 @@
+about:
+  description: Adaptable, fast automation for all
+  license: Apache-2.0
+  homepage: https://gradle.org
+  head: 4e6f527
+  archived: false
+  latestVersion: v9.7.1
+  collectedAt: 2026-08-29T07:11:50Z
+timeline:
+  created: 2009-09-09
+  lastCommit: 2026-08-29
+  lastRelease: 2026-08-19
+popularity:
+  star: 18808
+  watcher: 560
+  fork: 5344
+  release: 331
+  contributor: 929
+  pullRequest: 3934
+  issue: 15664
+language:
+  Groovy: 39310101
+  Java: 35156729
+  Kotlin: 6525015
+  C++: 888505
+  JavaScript: 80304
+  CSS: 16245
+  HTML: 15779
+  Shell: 12419
+  XSLT: 7121
+  C: 5785
+  Scala: 2819
+  Gherkin: 786
+  Python: 58
+  Brainfuck: 48
+  B: 6
+totalLine: 82021720
+recent:
+  last30d:
+    since: 2026-07-30
+    release: 4
+    mergedPR: 141
+    openPR: 45
+    closedIssue: 32
+    openIssue: 46
+    commit: 538
+  last90d:
+    since: 2026-05-31
+    release: 9
+    mergedPR: 556
+    openPR: 87
+    closedIssue: 96
+    openIssue: 94
+    commit: 2175
+  last180d:
+    since: 2026-03-02
+    release: 19
+    mergedPR: 1227
+    openPR: 116
+    closedIssue: 229
+    openIssue: 205
+    commit: 4754
+  last360d:
+    since: 2025-09-03
+    release: 35
+    mergedPR: 2369
+    openPR: 147
+    closedIssue: 594
+    openIssue: 468
+    commit: 9220
