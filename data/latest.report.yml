@@ -2,12 +2,12 @@ about:
   description: "Adaptable, fast automation for all"
   license: Apache-2.0
   homepage: https://gradle.org
-  head: 653ce75
+  head: 5424869
   archived: false
   latestVersion: "v9.8.0-RC1"
   latestRelease: "v9.7.1"
   latestPrerelease: "v9.8.0-RC1"
-  collectedAt: 2026-09-09T05:58:36Z
+  collectedAt: 2026-09-09T20:17:00Z
 timeline:
   created: 2009-09-09
   lastCommit: 2026-09-09
@@ -15,16 +15,16 @@ timeline:
   lastRelease: 2026-08-19
   lastPrerelease: 2026-09-08
 popularity:
-  star: 18828
-  watcher: 560
-  fork: 5342
+  star: 18830
+  watcher: 554
+  fork: 5338
   release: 332
   contributor: 888
-  pullRequest: 22731
-  issue: 15684
+  pullRequest: 22740
+  issue: 15686
 language:
-  Groovy: 39328671
-  Java: 35100272
+  Groovy: 39316926
+  Java: 35102756
   Kotlin: 6535893
   C++: 888505
   JavaScript: 80304
@@ -38,86 +38,86 @@ language:
   Python: 58
   Brainfuck: 48
   B: 6
-totalBytes: 82004155
+totalBytes: 81994894
 recent:
   last30d:
     since: 2026-08-10
     release: 2
-    mergedPR: 139
-    openPR: 67
+    mergedPR: 143
+    openPR: 70
     closedIssue: 26
-    openIssue: 45
-    commit: 373
+    openIssue: 47
+    commit: 394
   last60d:
     since: 2026-07-11
     release: 6
-    mergedPR: 337
-    openPR: 88
+    mergedPR: 341
+    openPR: 91
     closedIssue: 54
-    openIssue: 75
-    commit: 1078
+    openIssue: 77
+    commit: 1099
   last90d:
     since: 2026-06-11
     release: 10
-    mergedPR: 534
-    openPR: 104
+    mergedPR: 540
+    openPR: 105
     closedIssue: 83
-    openIssue: 99
-    commit: 1905
+    openIssue: 101
+    commit: 1926
   last180d:
     since: 2026-03-13
     release: 19
-    mergedPR: 1166
-    openPR: 135
-    closedIssue: 208
-    openIssue: 206
-    commit: 4388
+    mergedPR: 1172
+    openPR: 136
+    closedIssue: 209
+    openIssue: 207
+    commit: 4409
   last360d:
     since: 2025-09-14
     release: 35
-    mergedPR: 2364
-    openPR: 166
-    closedIssue: 587
-    openIssue: 475
-    commit: 9058
+    mergedPR: 2370
+    openPR: 167
+    closedIssue: 588
+    openIssue: 476
+    commit: 9079
   last720d:
     since: 2024-09-19
     release: 65
-    mergedPR: 4627
-    openPR: 195
-    closedIssue: 1411
-    openIssue: 1019
-    commit: 17878
+    mergedPR: 4633
+    openPR: 196
+    closedIssue: 1414
+    openIssue: 1018
+    commit: 17897
 total:
   release: 332
-  mergedPR: 18771
-  openPR: 207
-  closedIssue: 12405
-  openIssue: 3279
-  commit: 136734
+  mergedPR: 18777
+  openPR: 208
+  closedIssue: 12408
+  openIssue: 3278
+  commit: 136753
 ---
 path: /home/runner/.x-repo/github.com/gradle/gradle
-collectedAt: 2026-09-09T06:00:04Z
+collectedAt: 2026-09-09T20:18:38Z
 loc:
   Groovy:
-    code: 881837
-    comments: 119627
-    blanks: 162052
-    files: 6653
+    code: 881600
+    comments: 119599
+    blanks: 162024
+    files: 6650
   Java:
-    code: 565916
-    comments: 288192
-    blanks: 125172
+    code: 565953
+    comments: 288248
+    blanks: 125183
     files: 11659
   Kotlin:
-    code: 162340
-    comments: 37941
-    blanks: 32081
+    code: 162347
+    comments: 37948
+    blanks: 32084
     files: 3740
   AsciiDoc:
-    code: 58975
+    code: 59051
     comments: 3673
-    blanks: 21451
+    blanks: 21474
     files: 341
   CHeader:
     code: 42093
@@ -125,7 +125,7 @@ loc:
     blanks: 6517
     files: 128
   Xml:
-    code: 22574
+    code: 22578
     comments: 5084
     blanks: 584
     files: 757
@@ -256,8 +256,8 @@ loc:
     files: 1
   Markdown:
     code: 0
-    comments: 4368
-    blanks: 1991
+    comments: 4376
+    blanks: 1997
     files: 68
   Text:
     code: 0
@@ -265,10 +265,10 @@ loc:
     blanks: 812
     files: 256
 total:
-  code: 1750290
-  comments: 493960
-  blanks: 352459
-  files: 25018
+  code: 1750180
+  comments: 494003
+  blanks: 352474
+  files: 25015
 ---
 date: "2026-09-07"
 repo:
