@@ -7,7 +7,7 @@ about:
   latestVersion: "v9.8.0-RC1"
   latestRelease: "v9.7.1"
   latestPrerelease: "v9.8.0-RC1"
-  collectedAt: 2026-09-10T21:50:59Z
+  collectedAt: 2026-09-10T22:04:28Z
 timeline:
   created: 2009-09-09
   lastCommit: 2026-09-10
@@ -20,7 +20,7 @@ popularity:
   fork: 5337
   release: 332
   contributor: 887
-  pullRequest: 22748
+  pullRequest: 22749
   issue: 15688
 language:
   Groovy: 39319307
@@ -44,7 +44,7 @@ recent:
     since: 2026-08-11
     release: 2
     mergedPR: 143
-    openPR: 67
+    openPR: 68
     closedIssue: 25
     openIssue: 46
     commit: 413
@@ -52,7 +52,7 @@ recent:
     since: 2026-07-12
     release: 6
     mergedPR: 349
-    openPR: 88
+    openPR: 89
     closedIssue: 55
     openIssue: 77
     commit: 1118
@@ -60,7 +60,7 @@ recent:
     since: 2026-06-12
     release: 9
     mergedPR: 542
-    openPR: 102
+    openPR: 103
     closedIssue: 84
     openIssue: 101
     commit: 1945
@@ -68,7 +68,7 @@ recent:
     since: 2026-03-14
     release: 19
     mergedPR: 1180
-    openPR: 133
+    openPR: 134
     closedIssue: 210
     openIssue: 208
     commit: 4428
@@ -76,7 +76,7 @@ recent:
     since: 2025-09-15
     release: 35
     mergedPR: 2365
-    openPR: 164
+    openPR: 165
     closedIssue: 586
     openIssue: 476
     commit: 9098
@@ -84,20 +84,20 @@ recent:
     since: 2024-09-20
     release: 65
     mergedPR: 4632
-    openPR: 193
+    openPR: 194
     closedIssue: 1411
     openIssue: 1018
     commit: 17866
 total:
   release: 332
   mergedPR: 18785
-  openPR: 205
+  openPR: 206
   closedIssue: 12409
   openIssue: 3279
   commit: 136772
 ---
 path: /home/runner/.x-repo/github.com/gradle/gradle
-collectedAt: 2026-09-10T21:52:42Z
+collectedAt: 2026-09-10T22:05:50Z
 loc:
   Groovy:
     code: 881659
