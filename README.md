@@ -51,18 +51,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 332 · **Merged PRs**: 18785 · **Open PRs**: 205 · **Closed issues**: 12409 · **Open issues**: 3279 · **Commits**: 136772
+- **Releases**: 332 · **Merged PRs**: 18785 · **Open PRs**: 206 · **Closed issues**: 12409 · **Open issues**: 3279 · **Commits**: 136772
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 2 | 143 | 67 | 25 | 46 | 413 |
-| last60d | 2026-07-12 | 6 | 349 | 88 | 55 | 77 | 1118 |
-| 90d | 2026-06-12 | 9 | 542 | 102 | 84 | 101 | 1945 |
-| last180d | 2026-03-14 | 19 | 1180 | 133 | 210 | 208 | 4428 |
-| 360d | 2025-09-15 | 35 | 2365 | 164 | 586 | 476 | 9098 |
-| last720d | 2024-09-20 | 65 | 4632 | 193 | 1411 | 1018 | 17866 |
+| 30d | 2026-08-11 | 2 | 143 | 68 | 25 | 46 | 413 |
+| last60d | 2026-07-12 | 6 | 349 | 89 | 55 | 77 | 1118 |
+| 90d | 2026-06-12 | 9 | 542 | 103 | 84 | 101 | 1945 |
+| last180d | 2026-03-14 | 19 | 1180 | 134 | 210 | 208 | 4428 |
+| 360d | 2025-09-15 | 35 | 2365 | 165 | 586 | 476 | 9098 |
+| last720d | 2024-09-20 | 65 | 4632 | 194 | 1411 | 1018 | 17866 |
 
 ## Distribution status
 
@@ -90,4 +90,4 @@ Install metadata for gradle lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T21:53:06Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T22:06:04Z._
