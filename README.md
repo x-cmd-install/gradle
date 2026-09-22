@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 18,848 · **Forks**: 5,335 · **Open issues**: 15,717 · **Contributors**: 889
+- **Stars**: 18,850 · **Forks**: 5,336 · **Open issues**: 15,721 · **Contributors**: 889
 
 ## Totals (cumulative)
 
-- **Releases**: 333 · **Merged PRs**: 18849 · **Open PRs**: 204 · **Closed issues**: 12425 · **Open issues**: 3292 · **Commits**: 137017
+- **Releases**: 333 · **Merged PRs**: 18849 · **Open PRs**: 215 · **Closed issues**: 12426 · **Open issues**: 3295 · **Commits**: 137017
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-22 | 2 | 155 | 56 | 12 | 45 | 364 |
-| last60d | 2026-07-23 | 6 | 333 | 81 | 51 | 89 | 1011 |
-| 90d | 2026-06-23 | 8 | 539 | 99 | 89 | 111 | 1777 |
-| last180d | 2026-03-25 | 19 | 1147 | 131 | 199 | 208 | 4122 |
-| 360d | 2025-09-26 | 34 | 2361 | 162 | 572 | 463 | 9072 |
-| last720d | 2024-10-01 | 65 | 4634 | 192 | 1403 | 1016 | 17903 |
+| 30d | 2026-08-23 | 2 | 155 | 67 | 13 | 48 | 364 |
+| last60d | 2026-07-24 | 6 | 326 | 90 | 51 | 89 | 1011 |
+| 90d | 2026-06-24 | 8 | 530 | 110 | 90 | 114 | 1777 |
+| last180d | 2026-03-26 | 19 | 1137 | 142 | 200 | 211 | 4122 |
+| 360d | 2025-09-27 | 34 | 2361 | 173 | 571 | 465 | 9072 |
+| last720d | 2024-10-02 | 65 | 4627 | 203 | 1403 | 1019 | 17871 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for gradle lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260921.yml` · 2026-09-21T06:25:26Z._
+_Snapshot: `data/card/260922.yml` · 2026-09-22T06:28:47Z._
