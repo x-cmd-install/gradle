@@ -4,7 +4,7 @@
 
 Adaptable, fast automation for all
 
-[![x-cmd/install — gradle Code Quality Monitoring Repo Card](https://repo.x-cmd.io/gradle.svg?lang=zh)](https://x-cmd.com/install/gradle)
+[![x-cmd/install — gradle Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/gradle.svg?lang=zh)](https://x-cmd.com/install/gradle)
 
 ## 安装
 
@@ -14,25 +14,25 @@ x install gradle
 
 ## 代码洞察
 
-合计: **1,750,796** 行代码（覆盖前 5 种语言、共 **22543** 个文件）。
+合计: **1,751,429** 行代码（覆盖前 5 种语言、共 **22548** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Groovy | 883,165 | 119,853 | 162,341 | 6656 |
-| Java | 566,511 | 288,707 | 125,309 | 11667 |
-| Kotlin | 162,501 | 38,207 | 32,169 | 3751 |
-| AsciiDoc | 59,212 | 3,671 | 21,523 | 341 |
+| Groovy | 883,680 | 119,969 | 162,426 | 6660 |
+| Java | 566,585 | 288,762 | 125,327 | 11668 |
+| Kotlin | 162,541 | 38,215 | 32,172 | 3751 |
+| AsciiDoc | 59,216 | 3,671 | 21,527 | 341 |
 | CHeader | 42,093 | 17,755 | 6,517 | 128 |
 
 ## OpenSSF Scorecard 评分
 
-总评分: **4.2 / 10**
+总评分: **4.6 / 10**
 
 评分最低的几项:
 
-- **Code-Review** (3/10) — Found 3/8 approved changesets -- score normalized to 3
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Signed-Releases** (-1/10) — no releases found
 
 ## 源代码
 
@@ -42,27 +42,27 @@ x install gradle
 
 ## 发布
 
-- **最新版本**: `v9.8.0-RC2` (2026-08-19)
-- **最近提交**: 2026-09-21
+- **最新版本**: `v9.8.0-RC3` (2026-08-19)
+- **最近提交**: 2026-09-23
 
 ## 流行度
 
-- **Star**: 18,850 · **Fork**: 5,336 · **开放 issue**: 15,721 · **贡献者**: 889
+- **Star**: 18,850 · **Fork**: 5,335 · **开放 issue**: 15,723 · **贡献者**: 889
 
 ## 累计统计
 
-- **发布数**: 333 · **已合并 PR**: 18849 · **开放 PR**: 215 · **已关闭 issue**: 12426 · **开放 issue**: 3295 · **提交数**: 137017
+- **发布数**: 334 · **已合并 PR**: 18862 · **开放 PR**: 215 · **已关闭 issue**: 12430 · **开放 issue**: 3293 · **提交数**: 137070
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 2 | 155 | 67 | 13 | 48 | 364 |
-| last60d | 2026-07-24 | 6 | 326 | 90 | 51 | 89 | 1011 |
-| 90d | 2026-06-24 | 8 | 530 | 110 | 90 | 114 | 1777 |
-| last180d | 2026-03-26 | 19 | 1137 | 142 | 200 | 211 | 4122 |
-| 360d | 2025-09-27 | 34 | 2361 | 173 | 571 | 465 | 9072 |
-| last720d | 2024-10-02 | 65 | 4627 | 203 | 1403 | 1019 | 17871 |
+| 30d | 2026-08-24 | 3 | 152 | 68 | 14 | 49 | 396 |
+| last60d | 2026-07-25 | 7 | 337 | 91 | 52 | 90 | 1053 |
+| 90d | 2026-06-25 | 9 | 532 | 110 | 88 | 114 | 1820 |
+| last180d | 2026-03-27 | 20 | 1131 | 141 | 199 | 210 | 4165 |
+| 360d | 2025-09-28 | 35 | 2373 | 173 | 572 | 465 | 9115 |
+| last720d | 2024-10-03 | 66 | 4632 | 203 | 1405 | 1013 | 17905 |
 
 ## 改进这些数据
 
@@ -73,4 +73,4 @@ gradle 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260922.yml` · 2026-09-22T06:28:48Z._
+_数据快照: `data/card/260923.yml` · 2026-09-23T06:34:57Z._
