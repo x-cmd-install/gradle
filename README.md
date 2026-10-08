@@ -14,14 +14,14 @@ x install gradle
 
 ## Code insight
 
-Total: **1,758,105** lines of code across **22649** files in the top 5 languages.
+Total: **1,759,445** lines of code across **22647** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Groovy | 886,939 | 120,437 | 162,980 | 6680 |
-| Java | 568,832 | 290,568 | 125,968 | 11721 |
-| Kotlin | 162,877 | 38,347 | 32,228 | 3776 |
-| AsciiDoc | 59,902 | 3,706 | 21,860 | 344 |
+| Groovy | 888,197 | 120,475 | 163,213 | 6682 |
+| Java | 568,814 | 290,559 | 125,944 | 11717 |
+| Kotlin | 162,875 | 38,348 | 32,218 | 3776 |
+| AsciiDoc | 59,965 | 3,706 | 21,880 | 344 |
 | CHeader | 42,093 | 17,755 | 6,517 | 128 |
 
 ## OpenSSF Scorecard
@@ -42,27 +42,27 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v9.8.0` (2026-09-24)
-- **Last commit**: 2026-10-06
+- **Latest**: `v9.8.1` (2026-10-07)
+- **Last commit**: 2026-10-08
 
 ## Popularity
 
-- **Stars**: 18,878 · **Forks**: 5,325 · **Open issues**: 15,754 · **Contributors**: 891
+- **Stars**: 18,880 · **Forks**: 5,326 · **Open issues**: 15,757 · **Contributors**: 891
 
 ## Totals (cumulative)
 
-- **Releases**: 335 · **Merged PRs**: 18923 · **Open PRs**: 230 · **Closed issues**: 12477 · **Open issues**: 3277 · **Commits**: 137259
+- **Releases**: 336 · **Merged PRs**: 18942 · **Open PRs**: 230 · **Closed issues**: 12482 · **Open issues**: 3275 · **Commits**: 137326
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-07 | 4 | 140 | 71 | 23 | 45 | 354 |
-| last60d | 2026-08-08 | 5 | 288 | 106 | 60 | 85 | 896 |
-| 90d | 2026-07-09 | 9 | 493 | 120 | 86 | 115 | 1630 |
-| last180d | 2026-04-10 | 19 | 1088 | 156 | 194 | 200 | 4055 |
-| 360d | 2025-10-12 | 35 | 2365 | 189 | 564 | 461 | 9035 |
-| last720d | 2024-10-17 | 67 | 4602 | 218 | 1388 | 997 | 17711 |
+| 30d | 2026-09-08 | 5 | 148 | 69 | 25 | 46 | 421 |
+| last60d | 2026-08-09 | 6 | 306 | 106 | 60 | 85 | 963 |
+| 90d | 2026-07-10 | 10 | 506 | 120 | 88 | 112 | 1697 |
+| last180d | 2026-04-11 | 20 | 1106 | 156 | 196 | 200 | 4122 |
+| 360d | 2025-10-13 | 36 | 2376 | 189 | 564 | 459 | 9102 |
+| last720d | 2024-10-18 | 67 | 4618 | 218 | 1388 | 994 | 17752 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for gradle lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261007.yml` · 2026-10-07T07:07:16Z._
+_Snapshot: `data/card/261008.yml` · 2026-10-08T07:20:37Z._
