@@ -43,26 +43,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v8.14.6` (2026-10-08)
-- **Last commit**: 2026-10-09
+- **Last commit**: 2026-10-10
 
 ## Popularity
 
-- **Stars**: 18,885 · **Forks**: 5,328 · **Open issues**: 15,762 · **Contributors**: 892
+- **Stars**: 18,886 · **Forks**: 5,328 · **Open issues**: 15,763 · **Contributors**: 892
 
 ## Totals (cumulative)
 
-- **Releases**: 337 · **Merged PRs**: 18958 · **Open PRs**: 229 · **Closed issues**: 12483 · **Open issues**: 3279 · **Commits**: 137403
+- **Releases**: 337 · **Merged PRs**: 18959 · **Open PRs**: 230 · **Closed issues**: 12483 · **Open issues**: 3280 · **Commits**: 137405
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-10 | 5 | 146 | 68 | 22 | 50 | 486 |
-| last60d | 2026-08-11 | 7 | 311 | 106 | 57 | 86 | 1028 |
-| 90d | 2026-07-12 | 11 | 519 | 119 | 89 | 115 | 1762 |
-| last180d | 2026-04-13 | 21 | 1115 | 155 | 196 | 202 | 4199 |
-| 360d | 2025-10-15 | 37 | 2377 | 188 | 556 | 463 | 9179 |
-| last720d | 2024-10-20 | 68 | 4634 | 217 | 1387 | 996 | 17823 |
+| 30d | 2026-09-11 | 5 | 143 | 67 | 22 | 48 | 343 |
+| last60d | 2026-08-12 | 7 | 308 | 106 | 53 | 85 | 888 |
+| 90d | 2026-07-13 | 11 | 512 | 119 | 86 | 115 | 1565 |
+| last180d | 2026-04-14 | 21 | 1109 | 156 | 195 | 203 | 4010 |
+| 360d | 2025-10-16 | 37 | 2367 | 189 | 552 | 460 | 9025 |
+| last720d | 2024-10-21 | 68 | 4631 | 218 | 1382 | 995 | 17825 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for gradle lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261010.yml` · 2026-10-10T06:52:42Z._
+_Snapshot: `data/card/261011.yml` · 2026-10-11T06:46:36Z._
