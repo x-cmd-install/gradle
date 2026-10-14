@@ -26,7 +26,7 @@ Total: **1,760,271** lines of code across **22647** files in the top 5 languages
 
 ## OpenSSF Scorecard
 
-Overall score: **4.4 / 10**
+Overall score: **4.7 / 10**
 
 Lowest-scoring checks:
 
@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 18,887 · **Forks**: 5,326 · **Open issues**: 15,765 · **Contributors**: 892
+- **Stars**: 18,888 · **Forks**: 5,324 · **Open issues**: 15,767 · **Contributors**: 892
 
 ## Totals (cumulative)
 
-- **Releases**: 337 · **Merged PRs**: 18964 · **Open PRs**: 233 · **Closed issues**: 12485 · **Open issues**: 3280 · **Commits**: 137413
+- **Releases**: 337 · **Merged PRs**: 18964 · **Open PRs**: 236 · **Closed issues**: 12485 · **Open issues**: 3282 · **Commits**: 137413
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-13 | 5 | 146 | 70 | 23 | 48 | 351 |
-| last60d | 2026-08-14 | 7 | 300 | 107 | 50 | 80 | 896 |
-| 90d | 2026-07-15 | 11 | 496 | 122 | 86 | 114 | 1573 |
-| last180d | 2026-04-16 | 21 | 1095 | 158 | 193 | 200 | 4018 |
-| 360d | 2025-10-18 | 36 | 2356 | 192 | 552 | 455 | 9033 |
-| last720d | 2024-10-23 | 68 | 4631 | 221 | 1377 | 991 | 17789 |
+| 30d | 2026-09-14 | 5 | 128 | 72 | 19 | 44 | 351 |
+| last60d | 2026-08-15 | 7 | 299 | 110 | 49 | 82 | 896 |
+| 90d | 2026-07-16 | 11 | 483 | 122 | 84 | 116 | 1573 |
+| last180d | 2026-04-17 | 21 | 1086 | 161 | 191 | 201 | 4018 |
+| 360d | 2025-10-19 | 36 | 2356 | 195 | 550 | 457 | 9033 |
+| last720d | 2024-10-24 | 68 | 4622 | 224 | 1373 | 992 | 17731 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for gradle lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261013.yml` · 2026-10-13T07:59:35Z._
+_Snapshot: `data/card/261014.yml` · 2026-10-14T06:08:57Z._
