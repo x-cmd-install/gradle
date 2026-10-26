@@ -43,30 +43,30 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v9.8.2` (2026-10-19)
-- **Last commit**: 2026-10-24
+- **Last commit**: 2026-10-26
 
 ## Popularity
 
-- **Stars**: 18,897 · **Forks**: 5,266 · **Open issues**: 15,797 · **Contributors**: 893
+- **Stars**: 18,899 · **Forks**: 5,267 · **Open issues**: 15,797 · **Contributors**: 893
 
 ## Totals (cumulative)
 
-- **Releases**: 338 · **Merged PRs**: 19028 · **Open PRs**: 250 · **Closed issues**: 12505 · **Open issues**: 3292 · **Commits**: 137620
+- **Releases**: 338 · **Merged PRs**: 19030 · **Open PRs**: 253 · **Closed issues**: 12505 · **Open issues**: 3292 · **Commits**: 137624
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-25 | 3 | 122 | 69 | 20 | 37 | 332 |
-| last60d | 2026-08-26 | 7 | 301 | 113 | 51 | 83 | 864 |
-| 90d | 2026-07-27 | 11 | 493 | 133 | 90 | 123 | 1451 |
-| last180d | 2026-04-28 | 20 | 1070 | 170 | 190 | 196 | 3810 |
-| 360d | 2025-10-30 | 35 | 2335 | 208 | 543 | 458 | 8862 |
-| last720d | 2024-11-04 | 68 | 4634 | 239 | 1361 | 989 | 17711 |
+| 30d | 2026-09-26 | 3 | 121 | 74 | 20 | 36 | 336 |
+| last60d | 2026-08-27 | 7 | 297 | 114 | 51 | 83 | 868 |
+| 90d | 2026-07-28 | 11 | 488 | 135 | 90 | 123 | 1455 |
+| last180d | 2026-04-29 | 19 | 1065 | 170 | 189 | 196 | 3814 |
+| 360d | 2025-10-31 | 35 | 2331 | 211 | 535 | 458 | 8866 |
+| last720d | 2024-11-05 | 68 | 4633 | 242 | 1355 | 981 | 17700 |
 
 ## Distribution status
 
-Reported by **328** distros on [repology.org](https://repology.org/project/gradle). **22** are ✅ on the latest upstream release, **119** are ⚠️ on an older version.
+Reported by **328** distros on [repology.org](https://repology.org/project/gradle). **24** are ✅ on the latest upstream release, **117** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -90,4 +90,4 @@ Install metadata for gradle lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261025.yml` · 2026-10-25T05:43:03Z._
+_Snapshot: `data/card/261026.yml` · 2026-10-26T05:52:55Z._
