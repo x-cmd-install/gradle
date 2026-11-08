@@ -47,36 +47,36 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 18,917 · **Forks**: 5,264 · **Open issues**: 15,817 · **Contributors**: 891
+- **Stars**: 18,918 · **Forks**: 5,265 · **Open issues**: 15,818 · **Contributors**: 891
 
 ## Totals (cumulative)
 
-- **Releases**: 340 · **Merged PRs**: 19140 · **Open PRs**: 242 · **Closed issues**: 12534 · **Open issues**: 3283 · **Commits**: 138014
+- **Releases**: 340 · **Merged PRs**: 19141 · **Open PRs**: 243 · **Closed issues**: 12534 · **Open issues**: 3284 · **Commits**: 138016
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-08 | 4 | 159 | 61 | 26 | 31 | 555 |
-| last60d | 2026-09-08 | 9 | 339 | 100 | 61 | 70 | 1144 |
-| 90d | 2026-08-09 | 10 | 500 | 126 | 98 | 107 | 1669 |
-| last180d | 2026-05-11 | 20 | 1095 | 153 | 193 | 188 | 4018 |
-| 360d | 2025-11-12 | 37 | 2373 | 200 | 537 | 441 | 9059 |
-| last720d | 2024-11-17 | 68 | 4647 | 231 | 1340 | 958 | 17791 |
+| 30d | 2026-10-09 | 3 | 155 | 62 | 24 | 32 | 500 |
+| last60d | 2026-09-09 | 8 | 330 | 100 | 60 | 70 | 978 |
+| 90d | 2026-08-10 | 10 | 499 | 127 | 96 | 107 | 1533 |
+| last180d | 2026-05-12 | 20 | 1092 | 154 | 193 | 188 | 3877 |
+| 360d | 2025-11-13 | 37 | 2357 | 201 | 535 | 441 | 8843 |
+| last720d | 2024-11-18 | 68 | 4646 | 232 | 1337 | 959 | 17791 |
 
 ## Distribution status
 
-Reported by **328** distros on [repology.org](https://repology.org/project/gradle). **3** are ✅ on the latest upstream release, **139** are ⚠️ on an older version.
+Reported by **332** distros on [repology.org](https://repology.org/project/gradle). **9** are ✅ on the latest upstream release, **137** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
 | Debian unstable | `4.10.3` | ⚠️ outdated |
-| Debian 14 | `4.7` | ⚠️ outdated |
+| Debian 14 | `4.10.3` | ⚠️ outdated |
 | Debian 13 | `4.4.1` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `4.4.1` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `4.4.1` | ⚠️ outdated |
 | Arch | `9.8.2` | ⚠️ outdated |
-| Homebrew | `7.6.6` | 🪦 legacy |
+| Homebrew | `9.8.2` | ⚠️ outdated |
 | Nix unstable | `8.14.6` | 🪦 legacy |
 | Void | `8.11.1` | ⚠️ outdated |
 | Alpine edge | `8.14.4` | ⚠️ outdated |
@@ -90,4 +90,4 @@ Install metadata for gradle lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261107.yml` · 2026-11-07T07:07:05Z._
+_Snapshot: `data/card/261108.yml` · 2026-11-08T07:11:11Z._
