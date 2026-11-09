@@ -1,19 +1,23 @@
-- repo: pld
+- repo: arch
+  subrepo: extra
   srcname: gradle
+  binname: gradle
   visiblename: gradle
-  version: 9.4.0
-  origversion: 9.4.0-1
-  status: outdated
-- repo: aur
-  srcname: gradle8
-  binname: gradle8
-  visiblename: gradle8
-  version: 8.14.6
-  origversion: 8.14.6-1
+  version: 9.8.2
+  origversion: 9.8.2-1
   status: outdated
   summary: Powerful build system for the JVM
-  maintainers:
-    - patlefort@aur
+  licenses:
+    - Apache
+- repo: arch
+  subrepo: extra
+  srcname: gradle
+  binname: gradle-doc
+  visiblename: gradle-doc
+  version: 9.8.2
+  origversion: 9.8.2-1
+  status: outdated
+  summary: Powerful build system for the JVM (documentation)
   licenses:
     - Apache
 - repo: alpine_3_23
@@ -93,28 +97,6 @@
   summary: Powerful build system for the JVM (sources)
   licenses:
     - Apache
-- repo: arch
-  subrepo: extra
-  srcname: gradle
-  binname: gradle
-  visiblename: gradle
-  version: 9.8.2
-  origversion: 9.8.2-1
-  status: outdated
-  summary: Powerful build system for the JVM
-  licenses:
-    - Apache
-- repo: arch
-  subrepo: extra
-  srcname: gradle
-  binname: gradle-doc
-  visiblename: gradle-doc
-  version: 9.8.2
-  origversion: 9.8.2-1
-  status: outdated
-  summary: Powerful build system for the JVM (documentation)
-  licenses:
-    - Apache
 - repo: arch_testing
   subrepo: extra-testing
   srcname: gradle
@@ -146,6 +128,18 @@
   origversion: 9.9.0-1
   status: newest
   summary: Powerful build system for the JVM (documentation)
+  licenses:
+    - Apache
+- repo: aur
+  srcname: gradle8
+  binname: gradle8
+  visiblename: gradle8
+  version: 8.14.6
+  origversion: 8.14.6-1
+  status: outdated
+  summary: Powerful build system for the JVM
+  maintainers:
+    - patlefort@aur
   licenses:
     - Apache
 - repo: aur
@@ -215,9 +209,9 @@
 - repo: chromebrew
   srcname: gradle
   visiblename: gradle
-  version: 9.8.2
+  version: 9.9.0
   origversion: null
-  status: outdated
+  status: newest
   summary: From mobile apps to microservices, from small startups to big enterprises, Gradle helps teams build, automate and deliver better software, faster.
   licenses:
     - Apache-2.0
@@ -387,17 +381,6 @@
 - repo: manjaro_stable
   subrepo: extra
   srcname: gradle
-  binname: gradle
-  visiblename: gradle
-  version: 9.8.0
-  origversion: 9.8.0-1
-  status: outdated
-  summary: Powerful build system for the JVM
-  licenses:
-    - Apache
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: gradle
   binname: gradle-doc
   visiblename: gradle-doc
   version: 9.8.0
@@ -417,6 +400,17 @@
   summary: Powerful build system for the JVM (sources)
   licenses:
     - Apache
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: gradle
+  binname: gradle
+  visiblename: gradle
+  version: 9.8.0
+  origversion: 9.8.0-1
+  status: outdated
+  summary: Powerful build system for the JVM
+  licenses:
+    - Apache
 - repo: manjaro_testing
   subrepo: extra
   srcname: gradle
@@ -453,6 +447,17 @@
 - repo: manjaro_unstable
   subrepo: extra
   srcname: gradle
+  binname: gradle
+  visiblename: gradle
+  version: 9.8.2
+  origversion: 9.8.2-1
+  status: outdated
+  summary: Powerful build system for the JVM
+  licenses:
+    - Apache
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: gradle
   binname: gradle-doc
   visiblename: gradle-doc
   version: 9.8.2
@@ -470,39 +475,28 @@
   origversion: 9.8.2-1
   status: outdated
   summary: Powerful build system for the JVM (sources)
-  licenses:
-    - Apache
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: gradle
-  binname: gradle
-  visiblename: gradle
-  version: 9.8.2
-  origversion: 9.8.2-1
-  status: outdated
-  summary: Powerful build system for the JVM
   licenses:
     - Apache
 - repo: msys2_msys2
   subrepo: x86_64
   srcname: gradle
-  binname: gradle
-  visiblename: gradle
-  version: 9.8.2
-  origversion: 9.8.2-1
-  status: outdated
-  summary: A powerful build system for the JVM
+  binname: gradle-doc
+  visiblename: gradle-doc
+  version: 9.9.0
+  origversion: 9.9.0-1
+  status: newest
+  summary: A powerful build system for the JVM (documentation)
   licenses:
     - spdx:Apache-2.0
 - repo: msys2_msys2
   subrepo: x86_64
   srcname: gradle
-  binname: gradle-doc
-  visiblename: gradle-doc
-  version: 9.8.2
-  origversion: 9.8.2-1
-  status: outdated
-  summary: A powerful build system for the JVM (documentation)
+  binname: gradle
+  visiblename: gradle
+  version: 9.9.0
+  origversion: 9.9.0-1
+  status: newest
+  summary: A powerful build system for the JVM
   licenses:
     - spdx:Apache-2.0
 - repo: nix_stable_25_11
@@ -890,9 +884,9 @@
     - gradle-docs
     - gradle-src
   visiblename: gradle
-  version: 9.8.2
-  origversion: 9.8.2-1mamba
-  status: outdated
+  version: 9.9.0
+  origversion: 9.9.0-1mamba
+  status: newest
   summary: Powerful build system for the JVM
   maintainers:
     - silvan@openmamba.org
@@ -933,6 +927,12 @@
   summary: Powerful build system for the JVM
   licenses:
     - Apache
+- repo: pld
+  srcname: gradle
+  visiblename: gradle
+  version: 9.4.0
+  origversion: 9.4.0-1
+  status: outdated
 - repo: scoop
   subrepo: main
   binname: gradle-bin
@@ -1053,162 +1053,6 @@
   srcname: gradle
   binname: gradle
   visiblename: Gradle
-  version: 5.3.1
-  origversion: null
-  status: legacy
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: gradle
-  binname: gradle
-  visiblename: Gradle
-  version: "5.4"
-  origversion: null
-  status: legacy
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: gradle
-  binname: gradle
-  visiblename: Gradle
-  version: 5.4.1
-  origversion: null
-  status: legacy
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: gradle
-  binname: gradle
-  visiblename: Gradle
-  version: "5.5"
-  origversion: null
-  status: legacy
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: gradle
-  binname: gradle
-  visiblename: Gradle
-  version: 5.5.1
-  origversion: null
-  status: legacy
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: gradle
-  binname: gradle
-  visiblename: Gradle
-  version: "5.6"
-  origversion: null
-  status: legacy
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: gradle
-  binname: gradle
-  visiblename: Gradle
-  version: "1.11"
-  origversion: null
-  status: legacy
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: gradle
-  binname: gradle
-  visiblename: Gradle
-  version: 5.6.1
-  origversion: null
-  status: legacy
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: gradle
-  binname: gradle
-  visiblename: Gradle
-  version: 5.6.2
-  origversion: null
-  status: legacy
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: gradle
-  binname: gradle
-  visiblename: Gradle
-  version: "2"
-  origversion: null
-  status: legacy
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: gradle
-  binname: gradle
-  visiblename: Gradle
-  version: 5.6.3
-  origversion: null
-  status: legacy
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: gradle
-  binname: gradle
-  visiblename: Gradle
-  version: 5.6.4
-  origversion: null
-  status: legacy
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: gradle
-  binname: gradle
-  visiblename: Gradle
-  version: "2.1"
-  origversion: null
-  status: legacy
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: gradle
-  binname: gradle
-  visiblename: Gradle
   version: 2.2.1
   origversion: null
   status: legacy
@@ -1245,7 +1089,7 @@
   srcname: gradle
   binname: gradle
   visiblename: Gradle
-  version: "2.8"
+  version: "4.1"
   origversion: null
   status: legacy
   licenses:
@@ -1257,7 +1101,7 @@
   srcname: gradle
   binname: gradle
   visiblename: Gradle
-  version: "2.10"
+  version: "4.7"
   origversion: null
   status: legacy
   licenses:
@@ -1269,7 +1113,7 @@
   srcname: gradle
   binname: gradle
   visiblename: Gradle
-  version: 6.0.1
+  version: "4.8"
   origversion: null
   status: legacy
   licenses:
@@ -1281,7 +1125,300 @@
   srcname: gradle
   binname: gradle
   visiblename: Gradle
-  version: "6.1"
+  version: 4.8.1
+  origversion: null
+  status: legacy
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: gradle
+  binname: gradle
+  visiblename: Gradle
+  version: "4.9"
+  origversion: null
+  status: legacy
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: gradle
+  binname: gradle
+  visiblename: Gradle
+  version: "4.10"
+  origversion: null
+  status: legacy
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: gradle
+  binname: gradle
+  visiblename: Gradle
+  version: 4.10.1
+  origversion: null
+  status: legacy
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: gradle
+  binname: gradle
+  visiblename: Gradle
+  version: 4.10.2
+  origversion: null
+  status: legacy
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: gradle
+  binname: gradle
+  visiblename: Gradle
+  version: "5"
+  origversion: null
+  status: legacy
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: gradle
+  binname: gradle
+  visiblename: Gradle
+  version: "5.1"
+  origversion: null
+  status: legacy
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: gradle
+  binname: gradle
+  visiblename: Gradle
+  version: 5.1.1
+  origversion: null
+  status: legacy
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: gradle
+  binname: gradle
+  visiblename: Gradle
+  version: "5.2"
+  origversion: null
+  status: legacy
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: gradle
+  binname: gradle
+  visiblename: Gradle
+  version: 5.2.1
+  origversion: null
+  status: legacy
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: gradle
+  binname: gradle
+  visiblename: Gradle
+  version: "5.3"
+  origversion: null
+  status: legacy
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: gradle
+  binname: gradle
+  visiblename: Gradle
+  version: 5.3.1
+  origversion: null
+  status: legacy
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: gradle
+  binname: gradle
+  visiblename: Gradle
+  version: "5.4"
+  origversion: null
+  status: legacy
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: gradle
+  binname: gradle
+  visiblename: Gradle
+  version: "4.3"
+  origversion: null
+  status: legacy
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: gradle
+  binname: gradle
+  visiblename: Gradle
+  version: 4.3.1
+  origversion: null
+  status: legacy
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: gradle
+  binname: gradle
+  visiblename: Gradle
+  version: 5.4.1
+  origversion: null
+  status: legacy
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: gradle
+  binname: gradle
+  visiblename: Gradle
+  version: 2.14.1
+  origversion: null
+  status: legacy
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: gradle
+  binname: gradle
+  visiblename: Gradle
+  version: "4.4"
+  origversion: null
+  status: legacy
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: gradle
+  binname: gradle
+  visiblename: Gradle
+  version: "5.5"
+  origversion: null
+  status: legacy
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Development
+  vulnerable: true
+- repo: deepin_25
+  subrepo: main
+  srcname: gradle
+  binnames:
+    - gradle
+    - libgradle-core-java
+    - libgradle-plugins-java
+    - gradle-doc
+  visiblename: gradle
+  version: 4.4.1
+  origversion: 4.4.1-22
+  status: outdated
+  maintainers:
+    - pkg-java-maintainers@lists.alioth.debian.org
+  categories:
+    - misc
+  vulnerable: true
+- repo: npackd_stable
+  srcname: gradle
+  binname: gradle
+  visiblename: Gradle
+  version: "3.1"
+  origversion: null
+  status: legacy
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: gradle
+  binname: gradle
+  visiblename: Gradle
+  version: "3.3"
+  origversion: null
+  status: legacy
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: gradle
+  binname: gradle
+  visiblename: Gradle
+  version: 4.4.1
+  origversion: null
+  status: legacy
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: gradle
+  binname: gradle
+  visiblename: Gradle
+  version: "3.5"
+  origversion: null
+  status: legacy
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: gradle
+  binname: gradle
+  visiblename: Gradle
+  version: "4"
   origversion: null
   status: legacy
   licenses:
@@ -1307,44 +1444,6 @@
   categories:
     - java
   vulnerable: true
-- repo: npackd_stable
-  srcname: gradle
-  binname: gradle
-  visiblename: Gradle
-  version: "2.12"
-  origversion: null
-  status: legacy
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Development
-  vulnerable: true
-- repo: freebsd
-  srcname: devel/gradle5
-  binname: gradle5
-  visiblename: devel/gradle5
-  version: "5.0"
-  origversion: "5.0_3"
-  status: legacy
-  summary: Project automation tool
-  maintainers:
-    - yuri@freebsd.org
-  categories:
-    - devel
-  vulnerable: true
-- repo: freebsd
-  srcname: devel/gradle62
-  binname: gradle62
-  visiblename: devel/gradle62
-  version: 6.2.2
-  origversion: 6.2.2_3
-  status: legacy
-  summary: Project automation tool
-  maintainers:
-    - yuri@freebsd.org
-  categories:
-    - devel
-  vulnerable: true
 - repo: devuan_unstable
   subrepo: unstable/main
   srcname: gradle
@@ -1367,170 +1466,13 @@
   srcname: gradle
   binname: gradle
   visiblename: Gradle
-  version: "5.1"
+  version: 4.0.1
   origversion: null
   status: legacy
   licenses:
     - Apache License 2.0
   categories:
     - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: gradle
-  binname: gradle
-  visiblename: Gradle
-  version: 2.14.1
-  origversion: null
-  status: legacy
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: gradle
-  binname: gradle
-  visiblename: Gradle
-  version: 5.1.1
-  origversion: null
-  status: legacy
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: gradle
-  binname: gradle
-  visiblename: Gradle
-  version: "3.1"
-  origversion: null
-  status: legacy
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: gradle
-  binname: gradle
-  visiblename: Gradle
-  version: "5.2"
-  origversion: null
-  status: legacy
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: gradle
-  binname: gradle
-  visiblename: Gradle
-  version: "3.3"
-  origversion: null
-  status: legacy
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: gradle
-  binname: gradle
-  visiblename: Gradle
-  version: "4.3"
-  origversion: null
-  status: legacy
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: gradle
-  binname: gradle
-  visiblename: Gradle
-  version: "3.5"
-  origversion: null
-  status: legacy
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: gradle
-  binname: gradle
-  visiblename: Gradle
-  version: 5.2.1
-  origversion: null
-  status: legacy
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: gradle
-  binname: gradle
-  visiblename: Gradle
-  version: 4.3.1
-  origversion: null
-  status: legacy
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: gradle
-  binname: gradle
-  visiblename: Gradle
-  version: "4.4"
-  origversion: null
-  status: legacy
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: gradle
-  binname: gradle
-  visiblename: Gradle
-  version: "4"
-  origversion: null
-  status: legacy
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: gradle
-  binname: gradle
-  visiblename: Gradle
-  version: 4.4.1
-  origversion: null
-  status: legacy
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Development
-  vulnerable: true
-- repo: nix_stable_24_05
-  srcname: gradle_6
-  visiblename: gradle
-  version: 6.9.4
-  origversion: null
-  status: legacy
-  summary: Enterprise-grade build system
-  maintainers:
-    - lorenz@leutgeb.xyz
-    - liff@iki.fi
-  licenses:
-    - Apache-2.0
   vulnerable: true
 - repo: npackd_stable
   srcname: gradle
@@ -1548,7 +1490,7 @@
   srcname: gradle
   binname: gradle
   visiblename: Gradle
-  version: "1.6"
+  version: 4.0.2
   origversion: null
   status: legacy
   licenses:
@@ -1567,6 +1509,39 @@
     - Apache License 2.0
   categories:
     - Development
+  vulnerable: true
+- repo: deepin_unstable
+  subrepo: main
+  srcname: gradle
+  binnames:
+    - gradle
+    - libgradle-core-java
+    - libgradle-plugins-java
+    - gradle-doc
+  visiblename: gradle
+  version: 4.4.1
+  origversion: 4.4.1-6
+  status: outdated
+  maintainers:
+    - pkg-java-maintainers@lists.alioth.debian.org
+    - seamlikok@gmail.com
+  vulnerable: true
+- repo: deepin_23
+  subrepo: main
+  srcname: gradle
+  binnames:
+    - gradle
+    - libgradle-core-java
+    - libgradle-plugins-java
+    - gradle-doc
+  visiblename: gradle
+  version: 4.4.1
+  origversion: 4.4.1-20
+  status: outdated
+  maintainers:
+    - pkg-java-maintainers@lists.alioth.debian.org
+  categories:
+    - java
   vulnerable: true
 - repo: alpine_3_17
   subrepo: community
@@ -1652,6 +1627,19 @@
   licenses:
     - Apache-2.0
   vulnerable: true
+- repo: aur
+  srcname: gradle4
+  binname: gradle4-doc
+  visiblename: gradle4-doc
+  version: 4.10.3
+  origversion: 4.10.3-3
+  status: legacy
+  summary: Powerful build system for the JVM (documentation and samples)
+  maintainers:
+    - msrd0@aur
+  licenses:
+    - Apache
+  vulnerable: true
 - repo: alt_p11
   srcname: gradle
   binnames:
@@ -1722,19 +1710,6 @@
   origversion: 4.10.3-3
   status: legacy
   summary: Powerful build system for the JVM
-  maintainers:
-    - msrd0@aur
-  licenses:
-    - Apache
-  vulnerable: true
-- repo: aur
-  srcname: gradle4
-  binname: gradle4-doc
-  visiblename: gradle4-doc
-  version: 4.10.3
-  origversion: 4.10.3-3
-  status: legacy
-  summary: Powerful build system for the JVM (documentation and samples)
   maintainers:
     - msrd0@aur
   licenses:
@@ -1841,55 +1816,17 @@
   categories:
     - java
   vulnerable: true
-- repo: deepin_unstable
-  subrepo: main
+- repo: npackd_stable
   srcname: gradle
-  binnames:
-    - gradle
-    - libgradle-core-java
-    - libgradle-plugins-java
-    - gradle-doc
-  visiblename: gradle
-  version: 4.4.1
-  origversion: 4.4.1-6
-  status: outdated
-  maintainers:
-    - pkg-java-maintainers@lists.alioth.debian.org
-    - seamlikok@gmail.com
-  vulnerable: true
-- repo: deepin_23
-  subrepo: main
-  srcname: gradle
-  binnames:
-    - gradle
-    - libgradle-core-java
-    - libgradle-plugins-java
-    - gradle-doc
-  visiblename: gradle
-  version: 4.4.1
-  origversion: 4.4.1-20
-  status: outdated
-  maintainers:
-    - pkg-java-maintainers@lists.alioth.debian.org
+  binname: gradle
+  visiblename: Gradle
+  version: "4.6"
+  origversion: null
+  status: legacy
+  licenses:
+    - Apache License 2.0
   categories:
-    - java
-  vulnerable: true
-- repo: deepin_25
-  subrepo: main
-  srcname: gradle
-  binnames:
-    - gradle
-    - libgradle-core-java
-    - libgradle-plugins-java
-    - gradle-doc
-  visiblename: gradle
-  version: 4.4.1
-  origversion: 4.4.1-22
-  status: outdated
-  maintainers:
-    - pkg-java-maintainers@lists.alioth.debian.org
-  categories:
-    - misc
+    - Development
   vulnerable: true
 - repo: epel_6
   srcname: gradle
@@ -1902,6 +1839,56 @@
     - ASL 2.0
   categories:
     - Development/Tools
+  vulnerable: true
+- repo: npackd_stable
+  srcname: gradle
+  binname: gradle
+  visiblename: Gradle
+  version: "2.1"
+  origversion: null
+  status: legacy
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Development
+  vulnerable: true
+- repo: freebsd
+  srcname: devel/gradle5
+  binname: gradle5
+  visiblename: devel/gradle5
+  version: "5.0"
+  origversion: "5.0_3"
+  status: legacy
+  summary: Project automation tool
+  maintainers:
+    - yuri@freebsd.org
+  categories:
+    - devel
+  vulnerable: true
+- repo: npackd_stable
+  srcname: gradle
+  binname: gradle
+  visiblename: Gradle
+  version: "2.8"
+  origversion: null
+  status: legacy
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Development
+  vulnerable: true
+- repo: freebsd
+  srcname: devel/gradle62
+  binname: gradle62
+  visiblename: devel/gradle62
+  version: 6.2.2
+  origversion: 6.2.2_3
+  status: legacy
+  summary: Project automation tool
+  maintainers:
+    - yuri@freebsd.org
+  categories:
+    - devel
   vulnerable: true
 - repo: freebsd
   srcname: devel/gradle6
@@ -2042,18 +2029,6 @@
     - Apache-2.0
   categories:
     - dev-java
-  vulnerable: true
-- repo: npackd_stable
-  srcname: gradle
-  binname: gradle
-  visiblename: Gradle
-  version: "1.7"
-  origversion: null
-  status: legacy
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Development
   vulnerable: true
 - repo: gentoo
   srcname: dev-java/gradle-bin
@@ -2200,18 +2175,6 @@
   categories:
     - dev-java
   vulnerable: true
-- repo: npackd_stable
-  srcname: gradle
-  binname: gradle
-  visiblename: Gradle
-  version: "5.3"
-  origversion: null
-  status: legacy
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Development
-  vulnerable: true
 - repo: liguros_stable
   srcname: dev-java/gradle-bin
   visiblename: dev-java/gradle-bin
@@ -2286,18 +2249,6 @@
     - Apache-2.0
   categories:
     - dev-java
-  vulnerable: true
-- repo: npackd_stable
-  srcname: gradle
-  binname: gradle
-  visiblename: Gradle
-  version: "1.8"
-  origversion: null
-  status: legacy
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Development
   vulnerable: true
 - repo: liguros_develop
   srcname: dev-java/gradle-bin
@@ -2389,6 +2340,18 @@
   categories:
     - dev-java
   vulnerable: true
+- repo: npackd_stable
+  srcname: gradle
+  binname: gradle
+  visiblename: Gradle
+  version: "2.10"
+  origversion: null
+  status: legacy
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Development
+  vulnerable: true
 - repo: nix_stable_24_11
   srcname: gradle
   visiblename: gradle
@@ -2427,6 +2390,19 @@
   version: "8.7"
   origversion: null
   status: outdated
+  summary: Enterprise-grade build system
+  maintainers:
+    - lorenz@leutgeb.xyz
+    - liff@iki.fi
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: nix_stable_24_05
+  srcname: gradle_6
+  visiblename: gradle
+  version: 6.9.4
+  origversion: null
+  status: legacy
   summary: Enterprise-grade build system
   maintainers:
     - lorenz@leutgeb.xyz
@@ -2664,7 +2640,7 @@
   srcname: gradle
   binname: gradle
   visiblename: Gradle
-  version: "1.10"
+  version: "2.12"
   origversion: null
   status: legacy
   licenses:
@@ -2690,18 +2666,6 @@
     - sean@msgilligan.com
   licenses:
     - Apache-2.0
-  vulnerable: true
-- repo: npackd_stable
-  srcname: gradle
-  binname: gradle
-  visiblename: Gradle
-  version: "6"
-  origversion: null
-  status: legacy
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Development
   vulnerable: true
 - repo: nix_stable_26_05
   srcname: gradle_7-unwrapped
@@ -2738,7 +2702,7 @@
   srcname: gradle
   binname: gradle
   visiblename: Gradle
-  version: 4.0.1
+  version: "1.6"
   origversion: null
   status: legacy
   licenses:
@@ -2750,7 +2714,7 @@
   srcname: gradle
   binname: gradle
   visiblename: Gradle
-  version: 4.0.2
+  version: "1.7"
   origversion: null
   status: legacy
   licenses:
@@ -2762,7 +2726,7 @@
   srcname: gradle
   binname: gradle
   visiblename: Gradle
-  version: "4.1"
+  version: "1.8"
   origversion: null
   status: legacy
   licenses:
@@ -2774,7 +2738,7 @@
   srcname: gradle
   binname: gradle
   visiblename: Gradle
-  version: "4.6"
+  version: "1.10"
   origversion: null
   status: legacy
   licenses:
@@ -2786,7 +2750,7 @@
   srcname: gradle
   binname: gradle
   visiblename: Gradle
-  version: "4.7"
+  version: "1.11"
   origversion: null
   status: legacy
   licenses:
@@ -2798,7 +2762,7 @@
   srcname: gradle
   binname: gradle
   visiblename: Gradle
-  version: "4.8"
+  version: "2"
   origversion: null
   status: legacy
   licenses:
@@ -2810,7 +2774,7 @@
   srcname: gradle
   binname: gradle
   visiblename: Gradle
-  version: 4.8.1
+  version: 5.5.1
   origversion: null
   status: legacy
   licenses:
@@ -2822,7 +2786,7 @@
   srcname: gradle
   binname: gradle
   visiblename: Gradle
-  version: "4.9"
+  version: "5.6"
   origversion: null
   status: legacy
   licenses:
@@ -2834,7 +2798,7 @@
   srcname: gradle
   binname: gradle
   visiblename: Gradle
-  version: "4.10"
+  version: 5.6.1
   origversion: null
   status: legacy
   licenses:
@@ -2846,7 +2810,7 @@
   srcname: gradle
   binname: gradle
   visiblename: Gradle
-  version: 4.10.1
+  version: 5.6.2
   origversion: null
   status: legacy
   licenses:
@@ -2858,7 +2822,7 @@
   srcname: gradle
   binname: gradle
   visiblename: Gradle
-  version: 4.10.2
+  version: 5.6.3
   origversion: null
   status: legacy
   licenses:
@@ -2870,7 +2834,43 @@
   srcname: gradle
   binname: gradle
   visiblename: Gradle
-  version: "5"
+  version: 5.6.4
+  origversion: null
+  status: legacy
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: gradle
+  binname: gradle
+  visiblename: Gradle
+  version: "6"
+  origversion: null
+  status: legacy
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: gradle
+  binname: gradle
+  visiblename: Gradle
+  version: 6.0.1
+  origversion: null
+  status: legacy
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: gradle
+  binname: gradle
+  visiblename: Gradle
+  version: "6.1"
   origversion: null
   status: legacy
   licenses:
@@ -3760,19 +3760,6 @@
     - Development/Tools
   vulnerable: true
 - repo: opensuse_leap_15_5
-  subrepo: main/oss
-  srcname: gradle
-  visiblename: gradle
-  version: 4.4.1
-  origversion: 4.4.1-150200.3.7.1
-  status: outdated
-  summary: Build automation tool
-  licenses:
-    - Apache-2.0
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: opensuse_leap_15_5
   subrepo: updates/sle
   srcname: gradle
   visiblename: gradle
@@ -3830,6 +3817,19 @@
   visiblename: gradle
   version: 4.4.1
   origversion: 4.4.1-150200.3.27.1
+  status: outdated
+  summary: Build automation tool
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: gradle
+  visiblename: gradle
+  version: 4.4.1
+  origversion: 4.4.1-150200.3.7.1
   status: outdated
   summary: Build automation tool
   licenses:
@@ -3921,7 +3921,7 @@
     - java
   vulnerable: true
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: gradle
   binnames:
     - gradle
@@ -3938,7 +3938,7 @@
     - java
   vulnerable: true
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: gradle
   binnames:
     - gradle
