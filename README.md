@@ -14,12 +14,12 @@ x install gradle
 
 ## Code insight
 
-Total: **1,782,476** lines of code across **22779** files in the top 5 languages.
+Total: **1,782,505** lines of code across **22779** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Groovy | 902,923 | 122,131 | 165,983 | 6748 |
-| Java | 573,378 | 292,767 | 126,589 | 11755 |
+| Groovy | 902,944 | 122,131 | 165,990 | 6748 |
+| Java | 573,382 | 292,767 | 126,589 | 11755 |
 | Kotlin | 164,419 | 38,884 | 32,474 | 3805 |
 | AsciiDoc | 61,863 | 3,722 | 22,516 | 343 |
 | CHeader | 42,093 | 17,755 | 6,517 | 128 |
@@ -42,41 +42,41 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v8.14.8` (2026-11-19)
-- **Last commit**: 2026-11-27
+- **Latest**: `v9.9.3` (2026-11-27)
+- **Last commit**: 2026-11-28
 
 ## Popularity
 
-- **Stars**: 18,953 · **Forks**: 5,257 · **Open issues**: 15,851 · **Contributors**: 897
+- **Stars**: 18,956 · **Forks**: 5,256 · **Open issues**: 15,855 · **Contributors**: 897
 
 ## Totals (cumulative)
 
-- **Releases**: 344 · **Merged PRs**: 19315 · **Open PRs**: 230 · **Closed issues**: 12595 · **Open issues**: 3256 · **Commits**: 138516
+- **Releases**: 345 · **Merged PRs**: 19322 · **Open PRs**: 233 · **Closed issues**: 12595 · **Open issues**: 3260 · **Commits**: 138531
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-28 | 6 | 209 | 61 | 22 | 30 | 578 |
-| last60d | 2026-09-28 | 9 | 386 | 89 | 56 | 54 | 1205 |
-| 90d | 2026-08-29 | 13 | 571 | 113 | 88 | 96 | 1805 |
-| last180d | 2026-05-31 | 22 | 1160 | 146 | 196 | 181 | 4043 |
-| 360d | 2025-12-02 | 39 | 2407 | 191 | 516 | 425 | 8954 |
-| last720d | 2024-12-07 | 71 | 4713 | 222 | 1322 | 930 | 17802 |
+| 30d | 2026-10-29 | 7 | 201 | 66 | 22 | 34 | 592 |
+| last60d | 2026-09-29 | 10 | 388 | 90 | 56 | 57 | 1220 |
+| 90d | 2026-08-30 | 14 | 578 | 115 | 88 | 100 | 1820 |
+| last180d | 2026-06-01 | 23 | 1162 | 149 | 196 | 185 | 4058 |
+| 360d | 2025-12-03 | 40 | 2405 | 194 | 512 | 425 | 8969 |
+| last720d | 2024-12-08 | 72 | 4718 | 225 | 1320 | 934 | 17811 |
 
 ## Distribution status
 
-Reported by **326** distros on [repology.org](https://repology.org/project/gradle). **18** are ✅ on the latest upstream release, **122** are ⚠️ on an older version.
+Reported by **325** distros on [repology.org](https://repology.org/project/gradle). **8** are ✅ on the latest upstream release, **131** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
 | Debian unstable | `5.6.4` | ⚠️ outdated |
-| Debian 14 | `4.10.3` | ⚠️ outdated |
+| Debian 14 | `5.6.4` | ⚠️ outdated |
 | Debian 13 | `4.4.1` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `4.4.1` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `4.4.1` | ⚠️ outdated |
 | Arch | `9.9.0` | ⚠️ outdated |
-| Homebrew | `9.9.2` | ✅ latest |
+| Homebrew | `9.9.2` | ⚠️ outdated |
 | Nix unstable | `8.14.8` | 🪦 legacy |
 | Void | `8.11.1` | ⚠️ outdated |
 | Alpine edge | `8.14.4` | ⚠️ outdated |
@@ -90,4 +90,4 @@ Install metadata for gradle lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261127.yml` · 2026-11-27T09:42:05Z._
+_Snapshot: `data/card/261128.yml` · 2026-11-28T09:21:25Z._
