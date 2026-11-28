@@ -2,29 +2,29 @@ about:
   description: "Adaptable, fast automation for all"
   license: Apache-2.0
   homepage: https://gradle.org
-  head: 0f1307f
+  head: 767e748
   archived: false
-  latestVersion: "v8.14.8"
-  latestRelease: "v8.14.8"
+  latestVersion: "v9.9.3"
+  latestRelease: "v9.9.3"
   latestPrerelease: "v9.9.0-RC1"
-  collectedAt: 2026-11-27T09:40:09Z
+  collectedAt: 2026-11-28T09:20:03Z
 timeline:
   created: 2009-09-09
-  lastCommit: 2026-11-27
-  lastVersion: 2026-11-19
-  lastRelease: 2026-11-19
+  lastCommit: 2026-11-28
+  lastVersion: 2026-11-27
+  lastRelease: 2026-11-27
   lastPrerelease: 2026-10-30
 popularity:
-  star: 18953
-  watcher: 531
-  fork: 5257
-  release: 344
+  star: 18956
+  watcher: 528
+  fork: 5256
+  release: 345
   contributor: 897
-  pullRequest: 23424
-  issue: 15851
+  pullRequest: 23435
+  issue: 15855
 language:
-  Groovy: 40367827
-  Java: 35572095
+  Groovy: 40368828
+  Java: 35572322
   Kotlin: 6629645
   C++: 888505
   JavaScript: 80304
@@ -38,74 +38,74 @@ language:
   Python: 58
   Brainfuck: 48
   B: 6
-totalBytes: 83608899
+totalBytes: 83610127
 recent:
   last30d:
-    since: 2026-10-28
-    release: 6
-    mergedPR: 209
-    openPR: 61
+    since: 2026-10-29
+    release: 7
+    mergedPR: 201
+    openPR: 66
     closedIssue: 22
-    openIssue: 30
-    commit: 578
+    openIssue: 34
+    commit: 592
   last60d:
-    since: 2026-09-28
-    release: 9
-    mergedPR: 386
-    openPR: 89
+    since: 2026-09-29
+    release: 10
+    mergedPR: 388
+    openPR: 90
     closedIssue: 56
-    openIssue: 54
-    commit: 1205
+    openIssue: 57
+    commit: 1220
   last90d:
-    since: 2026-08-29
-    release: 13
-    mergedPR: 571
-    openPR: 113
+    since: 2026-08-30
+    release: 14
+    mergedPR: 578
+    openPR: 115
     closedIssue: 88
-    openIssue: 96
-    commit: 1805
+    openIssue: 100
+    commit: 1820
   last180d:
-    since: 2026-05-31
-    release: 22
-    mergedPR: 1160
-    openPR: 146
+    since: 2026-06-01
+    release: 23
+    mergedPR: 1162
+    openPR: 149
     closedIssue: 196
-    openIssue: 181
-    commit: 4043
+    openIssue: 185
+    commit: 4058
   last360d:
-    since: 2025-12-02
-    release: 39
-    mergedPR: 2407
-    openPR: 191
-    closedIssue: 516
+    since: 2025-12-03
+    release: 40
+    mergedPR: 2405
+    openPR: 194
+    closedIssue: 512
     openIssue: 425
-    commit: 8954
+    commit: 8969
   last720d:
-    since: 2024-12-07
-    release: 71
-    mergedPR: 4713
-    openPR: 222
-    closedIssue: 1322
-    openIssue: 930
-    commit: 17802
+    since: 2024-12-08
+    release: 72
+    mergedPR: 4718
+    openPR: 225
+    closedIssue: 1320
+    openIssue: 934
+    commit: 17811
 total:
-  release: 344
-  mergedPR: 19315
-  openPR: 230
+  release: 345
+  mergedPR: 19322
+  openPR: 233
   closedIssue: 12595
-  openIssue: 3256
-  commit: 138516
+  openIssue: 3260
+  commit: 138531
 ---
 path: /home/runner/.x-repo/github.com/gradle/gradle
-collectedAt: 2026-11-27T09:41:52Z
+collectedAt: 2026-11-28T09:21:15Z
 loc:
   Groovy:
-    code: 902923
+    code: 902944
     comments: 122131
-    blanks: 165983
+    blanks: 165990
     files: 6748
   Java:
-    code: 573378
+    code: 573382
     comments: 292767
     blanks: 126589
     files: 11755
@@ -155,7 +155,7 @@ loc:
     blanks: 133
     files: 100
   Json:
-    code: 853
+    code: 857
     comments: 0
     blanks: 1
     files: 3
@@ -265,9 +265,9 @@ loc:
     blanks: 812
     files: 250
 total:
-  code: 1783115
+  code: 1783144
   comments: 502026
-  blanks: 359105
+  blanks: 359112
   files: 25298
 ---
 date: "2026-11-23"
@@ -497,4 +497,4 @@ checks:
       - 'Info:  10 out of  33 GitHub-owned GitHubAction dependencies pinned'
       - 'Info:   8 out of  30 third-party GitHubAction dependencies pinned'
 ---
-{"id":451870040,"author":{"login":"bot-gradle","id":62695641,"node_id":"MDQ6VXNlcjYyNjk1NjQx","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"node_id":"RE_kwDOAASc8s4a7v1Y","tag_name":"v9.9.2","target_commitish":"53873705aa44e5f145f335eefd2a254f2adff009","name":"9.9.2","draft":false,"immutable":false,"prerelease":false,"created_at":"2026-11-19T16:13:30Z","updated_at":"2026-11-19T20:59:54Z","published_at":"2026-11-19T20:59:54Z","assets":[],"body":"The Gradle team is excited to announce Gradle 9.9.2.\r\n\r\nHere are the highlights of this release:\r\n\r\n - Performance improvements for Kotlin DSL compilation\r\n - Test filtering for non-method JUnit Platform tests\r\n - Wrapper settings preserved on upgrade\r\n - Predefined groups in the Problems API\r\n\r\n[Read the Release Notes](https://docs.gradle.org/9.9.2/release-notes.html)\r\n\r\nWe would like to thank the following community members for their contributions to this release of Gradle:\r\n[Aurimas](https://github.com/liutikas),\r\n[devareddy05](https://github.com/devareddy05),\r\n[DragonFSKY](https://github.com/DragonFSKY),\r\n[fru1tworld](https://github.com/fru1tworld),\r\n[Ivan Khanas](https://github.com/ikxeno),\r\n[Jeremy Schoemaker](https://github.com/shoemoney),\r\n[John Burns](https://github.com/wakingrufus),\r\n[Labh R Jethe](https://github.com/itsCodeTide),\r\n[Marcin Mycek](https://github.com/Herudaio),\r\n[monkey](https://github.com/Develop-KIM),\r\n[Nelson Osacky](https://github.com/runningcode),\r\n[Roberto Perez Alcolea](https://github.com/rpalcolea),\r\n[Róbert Papp](https://github.com/TWiStErRob),\r\n[SeungTaek Lim](https://github.com/namest504),\r\n[Stefan Oehme](https://github.com/oehme),\r\n[万彬宇](https://github.com/Wanbinyu),\r\n[한의준](https://github.com/exijn).\r\n\r\n## Upgrade instructions\r\nSwitch your build to use Gradle 9.9.2 by updating your wrapper:\r\n```\r\n./gradlew :wrapper --gradle-version=9.9.2 && ./gradlew :wrapper\r\n```\r\nSee the Gradle [9.x upgrade guide](https://docs.gradle.org/9.9.2/userguide/upgrading_version_9.html) to learn about deprecations, breaking changes and other considerations when upgrading.\r\n\r\nFor Java, Groovy, Kotlin and Android compatibility, see the [full compatibility notes](https://docs.gradle.org/9.9.2/userguide/compatibility.html).\r\n\r\n## Reporting problems\r\n\r\nIf you find a problem with this release, please file a bug on [GitHub Issues](https://github.com/gradle/gradle/issues) adhering to our issue guidelines.\r\nIf you're not sure you're encountering a bug, please use the [forum](https://discuss.gradle.org/c/help-discuss).\r\n\r\nWe hope you will build happiness with Gradle, and we look forward to your feedback via [Twitter](https://twitter.com/gradle) or on [GitHub](https://github.com/gradle).\r\n","reactions":{"total_count":9,"+1":4,"-1":0,"laugh":0,"hooray":1,"confused":0,"heart":0,"rocket":4,"eyes":0}}
+{"id":460695145,"author":{"login":"bot-gradle","id":62695641,"node_id":"MDQ6VXNlcjYyNjk1NjQx","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"node_id":"RE_kwDOAASc8s4bdaZp","tag_name":"v9.9.3","target_commitish":"0dd6ee0b627383856db81ba6635c3fc6718160ce","name":"9.9.3","draft":false,"immutable":false,"prerelease":false,"created_at":"2026-11-27T00:26:36Z","updated_at":"2026-11-27T15:07:42Z","published_at":"2026-11-27T15:07:42Z","assets":[],"body":"The Gradle team is excited to announce Gradle 9.9.3.\r\n\r\nHere are the highlights of this release:\r\n\r\n - Performance improvements for Kotlin DSL compilation\r\n - Test filtering for non-method JUnit Platform tests\r\n - Wrapper settings preserved on upgrade\r\n - Predefined groups in the Problems API\r\n\r\n[Read the Release Notes](https://docs.gradle.org/9.9.3/release-notes.html)\r\n\r\nWe would like to thank the following community members for their contributions to this release of Gradle:\r\n[Aurimas](https://github.com/liutikas),\r\n[devareddy05](https://github.com/devareddy05),\r\n[DragonFSKY](https://github.com/DragonFSKY),\r\n[fru1tworld](https://github.com/fru1tworld),\r\n[Ivan Khanas](https://github.com/ikxeno),\r\n[Jeremy Schoemaker](https://github.com/shoemoney),\r\n[John Burns](https://github.com/wakingrufus),\r\n[Labh R Jethe](https://github.com/itsCodeTide),\r\n[Marcin Mycek](https://github.com/Herudaio),\r\n[monkey](https://github.com/Develop-KIM),\r\n[Nelson Osacky](https://github.com/runningcode),\r\n[Roberto Perez Alcolea](https://github.com/rpalcolea),\r\n[Róbert Papp](https://github.com/TWiStErRob),\r\n[SeungTaek Lim](https://github.com/namest504),\r\n[Stefan Oehme](https://github.com/oehme),\r\n[万彬宇](https://github.com/Wanbinyu),\r\n[한의준](https://github.com/exijn).\r\n\r\n## Upgrade instructions\r\nSwitch your build to use Gradle 9.9.3 by updating your wrapper:\r\n```\r\n./gradlew :wrapper --gradle-version=9.9.3 && ./gradlew :wrapper\r\n```\r\nSee the Gradle [9.x upgrade guide](https://docs.gradle.org/9.9.3/userguide/upgrading_version_9.html) to learn about deprecations, breaking changes and other considerations when upgrading.\r\n\r\nFor Java, Groovy, Kotlin and Android compatibility, see the [full compatibility notes](https://docs.gradle.org/9.9.3/userguide/compatibility.html).\r\n\r\n## Reporting problems\r\n\r\nIf you find a problem with this release, please file a bug on [GitHub Issues](https://github.com/gradle/gradle/issues) adhering to our issue guidelines.\r\nIf you're not sure you're encountering a bug, please use the [forum](https://discuss.gradle.org/c/help-discuss).\r\n\r\nWe hope you will build happiness with Gradle, and we look forward to your feedback via [Twitter](https://twitter.com/gradle) or on [GitHub](https://github.com/gradle).\r\n","reactions":{"total_count":8,"+1":4,"-1":0,"laugh":0,"hooray":4,"confused":0,"heart":0,"rocket":0,"eyes":0}}
